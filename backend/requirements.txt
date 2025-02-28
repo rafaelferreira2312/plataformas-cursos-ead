@@ -1,0 +1,7 @@
+fastapi==0.95.2                # Framework principal
+uvicorn==0.22.0                # Servidor ASGI para rodar o FastAPI
+sqlalchemy==1.4.49             # ORM para interagir com o banco de dados
+alembic==1.11.1                # Gerenciador de migrações
+passlib[bcrypt]==1.7.4         # Biblioteca para hash de senhas
+psycopg2-binary==2.9.8         # Driver PostgreSQL
+python-dotenv==1.0.0           # Para gerenciar variáveis de ambiente

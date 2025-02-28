@@ -1,0 +1,10 @@
+# Como usar o Alembic para migrações
+
+1. Crie um novo script de migração:
+   alembic revision --autogenerate -m "Descrição da migração"
+
+2. Aplique as migrações ao banco de dados:
+   alembic upgrade head
+
+3. Reverter uma migração:
+   alembic downgrade -1

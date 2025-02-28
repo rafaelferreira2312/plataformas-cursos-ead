@@ -1,0 +1,23 @@
+# Ignorar node_modules em qualquer lugar do projeto
+node_modules/
+**/node_modules/
+
+# Ignorar arquivos de log
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar arquivos de cache
+.cache/
+
+# Ignorar arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar arquivos do sistema operacional
+*.swp
+*.swo
+
+# Ignorar pastas específicas
+/frontend/node_modules/
